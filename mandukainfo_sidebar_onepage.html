@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MandukaInfo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Open Sans', sans-serif;
+      display: flex;
+      min-height: 100vh;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    aside {
+      width: 220px;
+      background-color: #222;
+      color: white;
+      padding: 20px;
+      position: fixed;
+      height: 100vh;
+    }
+
+    aside h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.8em;
+      margin-bottom: 20px;
+    }
+
+    aside img {
+      max-width: 150px;
+      margin-bottom: 20px;
+    }
+
+    nav a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      margin: 10px 0;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #f4c542;
+    }
+
+    main {
+      margin-left: 240px;
+      padding: 40px 20px;
+      flex: 1;
+    }
+
+    section {
+      margin-bottom: 60px;
+    }
+
+    section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.2em;
+      margin-bottom: 15px;
+    }
+
+    section p {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 0.9em;
+      color: #777;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 10px 15px;
+      background-color: #333;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <aside>
+    <img src="mandukainfo_logo.png" alt="MandukaInfo Logo" />
+    <h1>MandukaInfo</h1>
+    <nav>
+      <a href="#fundraising">Fundraising</a>
+      <a href="#bourbon">Bourbon</a>
+      <a href="#consulting">Consulting</a>
+      <a href="#spiritual">Spirit Guide</a>
+      <a href="#nda">NDA</a>
+      <a href="#payment">Payment</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </aside>
+
+  <main>
+    <section id="fundraising">
+      <h2>Charity Fundraising</h2>
+      <p>We help nonprofits build lasting donor relationships using The Eight Principles of fundraising.</p>
+      <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1600210491911-8b09d76f0a3e" alt="Fundraising teamwork">
+        <img src="https://images.unsplash.com/photo-1573164574472-797cdf4a5839" alt="Donation hand">
+      </div>
+    </section>
+
+    <section id="bourbon">
+      <h2>Bourbon Collection</h2>
+      <p>Premium bourbons curated for collectors and connoisseurs. Taste tradition and timeless quality.</p>
+      <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1603052875351-cbbfb220b8d3" alt="Bourbon bottle">
+        <img src="https://images.unsplash.com/photo-1603575449454-2e6c3e10941d" alt="Bourbon shelf">
+      </div>
+    </section>
+
+    <section id="consulting">
+      <h2>Business Consulting</h2>
+      <p>Strategy sessions in branding, market growth, and leadership. Tailored for individuals and startups.</p>
+      <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1581093588401-eca9c2d4f7f4" alt="Business planning">
+        <img src="https://images.unsplash.com/photo-1556742031-c6961e8560b0" alt="Consulting work">
+      </div>
+    </section>
+
+    <section id="spiritual">
+      <h2>Spirit Body Guide</h2>
+      <p>Awaken your inner self through ancient practices and soulful mentoring.</p>
+      <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1549921296-3ecf4b43f9dd" alt="Peaceful meditation">
+        <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Nature retreat">
+      </div>
+    </section>
+
+    <section id="nda">
+      <h2>Non-Disclosure Agreement (NDA)</h2>
+      <p>Before engaging in our consulting or spiritual guidance services, a signed NDA is required. This protects both your information and our methods.</p>
+      <a class="button" href="#" target="_blank">Download NDA</a>
+    </section>
+
+    <section id="payment">
+      <h2>Payment Options</h2>
+      <p>We accept payments through multiple methods for your convenience:</p>
+      <ul>
+        <li>Bank Transfer</li>
+        <li>PayPal</li>
+        <li>Cryptocurrency (Bitcoin, Ethereum)</li>
+      </ul>
+      <p>Please contact us directly for account details and invoicing.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>We're here to help. Reach out to discuss your needs or ask a question.</p>
+      <p>Email: <strong>contact@mandukainfo.com</strong></p>
+      <p>Phone: <strong>+1 (555) 123-4567</strong></p>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 MandukaInfo. All rights reserved.</p>
+    </footer>
+  </main>
+
+</body>
+</html>
